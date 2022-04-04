@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "name": "cpray-android",
+  "app-name": "cpray-android",
+  "package-name": "webview",
+  "project-type": "webview",
+  "icon": "./assets/icon/icon.png",
+  "dist-path": "./dist",
+  "permission": [
+    "android.permission.INTERNET"
+  ],
+  "description": "```bash $ androidjs b ```",
+  "main": "main.js",
+  "scripts": {
+    "start:dev": "node .",
+    "build": "androidjs build"
+  },
+  "author": "c4lyp5o",
+  "license": "MIT",
+  "dependencies": {
+    "androidjs": "^2.0.2",
+    "cpray": "^1.1.7"
+  },
+  "project-name": "cpray-android",
+  "theme": {
+    "fullScreen": true
+  },
+  "devDependencies": {}
+}
